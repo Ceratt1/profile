@@ -28,11 +28,10 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "workbench.colorTheme": "Dracula Theme",
-    "workbench.activityBar.location": "top",
+    "workbench.activityBar.location": "bottom",
     "explorer.confirmDragAndDrop": false,
     "explorer.compactFolders": false,
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.statusBar.visible": false,
     "glassit.alpha": 255,
     "editor.linkedEditing": true,
     "editor.rulers": [
@@ -136,7 +135,7 @@
 
     ,
     "extensions.ignoreRecommendations": true,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "window.customTitleBarVisibility": "windowed",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "workbench.sideBar.location": "right",
@@ -146,7 +145,6 @@
     "workbench.editor.tabSizingFixedMaxWidth": 40,
     "workbench.editor.tabSizingFixedMinWidth": 100,
     "workbench.editor.tabSizing": "shrink",
-    "gitlens.mode.active": "zen",
     "workbench.editorAssociations": {
         "*.rpt": "default"
     },
@@ -446,7 +444,6 @@
     "git.blame.statusBarItem.enabled": true,
     "github.copilot.chat.generateTests.codeLens": true,
     "window.menuBarVisibility": "compact",
-    "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "java.saveActions.organizeImports": true,
     "typescript.preferences.organizeImports": {
@@ -459,26 +456,32 @@
     "java.jdt.ls.lombokSupport.enabled": true,
 
     
+    ///////////////////////////// background editor
+        
     "background.enabled": true,
 
     "background.fullscreen": {
-        "images": ["https://w.wallhaven.cc/full/po/wallhaven-pokok9.png" ,"https://w.wallhaven.cc/full/ly/wallhaven-ly33ml.png"],
-        "opacity": 0.05,
+        "images": ["https://w.wallhaven.cc/full/ly/wallhaven-ly33ml.png"],
+        "opacity": 0.06,
         "size": "cover",
         "position": "center",
         "interval": 0,
         "random": false
     },
-
-    "jdk.telemetry.enabled": false,
     "workbench.settings.openDefaultSettings": true,
     "mdb.mcp.server": "autoStartEnabled",
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "files.autoSave": "afterDelay",
-    "workbench.settings.applyToAllProfiles": [
-        
-    ]
+    "jdk.telemetry.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.size": "fill",
+    "terminal.integrated.tabs.location": "left",
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false
     
 }
